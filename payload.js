@@ -41,7 +41,7 @@ async function main() {
   const payload = await fetch(`${base_url}/v1/proof/payload`, {
     method: "POST",
     body: JSON.stringify({
-      action: "craete",
+      action: "create",
       platform: "twitter",
       identity: handle,
       public_key,
